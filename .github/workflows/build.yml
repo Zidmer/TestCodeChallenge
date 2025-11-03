@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: flashk-container
+  ECR_REPOSITORY: flash-container
 
 jobs:
   build-and-push:
@@ -37,4 +37,4 @@ jobs:
         run: |
           docker tag $ECR_REPOSITORY:$IMAGE_TAG ${{ steps.login-ecr.outputs.registry }}/$ECR_REPOSITORY:$IMAGE_TAG
           docker push ${{ steps.login-ecr.outputs.registry }}/$ECR_REPOSITORY:$IMAGE_TAG
-          echo "Image pushed: ${{ steps.login-ecr.outputs.registry }}/$ECR_REPOSITORY:$IfMAGE_TAG"
+          echo "Image pushed: ${{ steps.login-ecr.outputs.registry }}/$ECR_REPOSITORY:$IMAGE_TAG"
