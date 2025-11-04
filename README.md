@@ -2,7 +2,7 @@ CodeChallenge Deployment
 
 Hello Folks!
 
-Here's an overview of my CodeChallenge project. What seemed straightforward initially turned out to be quite engaging. It was my first experience deploying on ECS, which added a layer of complexity, but I thoroughly enjoyed the process.
+Here's an overview of my CodeChallenge project. What seemed straightforward initially turned out to be quite engaging, but I thoroughly enjoyed the process.
 
 This project demonstrates a modular, audit-friendly infrastructure setup using Terraform, Docker, and CI/CD pipelines. It emphasizes deployment safety, Git hygiene, and engineering practices suitable for interview scenarios.
 
