@@ -36,24 +36,11 @@ def home():
         </style>
     </head>
     <body>
-        <h1 class="fade-in">🚀 Infra Tag Gate Demo</h1>
+        <h1 class="spooky-title">         👻 HAPPY HALLOWEEN CODE TEST CHALLENGE 🎃</h1>
         <div class="content-box">{{ content }}</div>
     </body>
     </html>
     """, content=readme_content)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
