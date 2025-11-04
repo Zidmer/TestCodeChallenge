@@ -33,9 +33,10 @@ module "testverif" {
 }
 
 resource "aws_dynamodb_table" "terraform_lock" {
-  name         = "terraform-lock-table"
-  billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "LockID"
+  name                        = "terraform-lock-table"
+  billing_mode                = "PAY_PER_REQUEST"
+  hash_key                    = "LockID"
+  deletion_protection_enabled = true
 
   attribute {
     name = "LockID"
