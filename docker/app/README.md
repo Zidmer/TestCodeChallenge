@@ -1,4 +1,5 @@
-                                     Hello Folks! 
+                                                                      Hello Folks! 
+
 Here’s a look at my CodeChallenge — it seemed straightforward at first, but turned out to be surprisingly engaging. It was my first time deploying anything on ECS, which added a layer of challenge, but I genuinely enjoyed working through it.
 
 This project demonstrates a modular, audit-friendly infrastructure setup using Terraform, Docker, and CI/CD pipelines. It’s designed to showcase deploy safety, Git hygiene, and interview-ready engineering practices.
