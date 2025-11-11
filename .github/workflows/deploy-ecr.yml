@@ -11,7 +11,6 @@ env:
   CLUSTER_NAME: CodeChallengeCluster
   SERVICE_NAME: CodeChallengeCluster-service
   ECR_REPOSITORY: flash-container
-  IMAGE_TAG: ${{ github.sha }}
   CONTAINER_NAME: flashweb
   TASK_FAMILY: CodeChallengeCluster-task
   IMAGE_TAG: ${{ github.event.inputs.image_tag }}
